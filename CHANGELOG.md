@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/StateFarmIns/terraform-aws-default-log-retention/compare/v1.0.1...v1.0.2) (2023-11-09)
+
+
+### Bug Fixes
+
+* 🐛 PutRetentionPolicy assigned to all resource instead of specifying arn:aws or arn:aws-cn which fails while performing operations for `aws-cn` or `aws-us-gov` ([7efa264](https://github.com/StateFarmIns/terraform-aws-default-log-retention/commit/7efa264d3fbab8c33e6176aeba336f10f3e1cd6d))
+
+
 ## [1.0.1](https://github.com/StateFarmIns/terraform-aws-default-log-retention/compare/v1.0.0...v1.0.1) (2023-09-05)
 
 
